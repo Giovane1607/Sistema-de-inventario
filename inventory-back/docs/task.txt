@@ -1,0 +1,35 @@
+Aqui está a descrição do teste e tarefas a serem realizadas:
+
+requisitos a serem realizados
+** A API deve ser construída em qualquer linguagem de programação à escolha do candidato (por exemplo, Node.js, Python, Java, etc.).
+** O frontend pode ser construído usando qualquer framework ou biblioteca (por exemplo, React, Vue.js, Angular, etc.).
+
+
+1 - construir sistema de de leitura de códigod e barra integrado com back e frontend
+2 - precisamos ter um modelo de um sistema básico de inventário que inclua uma API
+3 - fazer um frontend para listagem.
+4 - implementar a funcionalidade de leitura de código de barras
+5 - construir api para lidar com esses itens:
+---- API Backend:
+---- CRUD (Create, Read, Update, Delete) para itens de inventário.
+---- Cada item deve conter:
+---- Código de barras (string ou número).
+---- Descrição (string).
+---- Quantidade (inteiro).
+---- Unidade (string).
+---- Endpoint para listar todos os itens, incluindo a data de execução (data de consulta).
+---- Endpoint para atualizar a quantidade de um item específico pelo código de barras.
+6 - precisamos criar uma aplicação em sql ou noSQL
+
+7 - frontend: A aplicação deve ser responsiva, funcionando em dispositivos móveis e desktop.
+
+
+Critérios de Avaliação:
+- O código é bem estruturado, limpo e segue as melhores práticas
+- A aplicação atende a todos os requisitos especificados
+- Uso de API: A API está corretamente implementada e documentada (swagger)
+- Interface do Usuário: A interface é intuitiva e responsiva (precisa ser um layout bonito)
+- Leitura de Código de Barras
+- Fazer um readme.md para esse projeto (Documentação)
+- Fazer um Capturas de tela ou um vídeo curto demonstrando a aplicação em funcionamento
+

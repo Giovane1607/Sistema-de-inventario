@@ -1,0 +1,36 @@
+Construir uma aplicação full-stack simples, integrando backend e frontend com uma funcionalidade prática como a leitura de código de barras.
+
+Para um teste destinado a desenvolvedores júnior, o objetivo é avaliar a capacidade de construir um sistema básico de inventário que inclua uma API, um frontend para listagem, e a funcionalidade de leitura de código de barras. Aqui está a descrição do teste:
+Objetivo: Desenvolver um sistema de inventário simples com as seguintes funcionalidades:
+
+API Backend:
+CRUD (Create, Read, Update, Delete) para itens de inventário.
+Cada item deve conter:
+Código de barras (string ou número).
+Descrição (string).
+Quantidade (inteiro).
+Unidade (string).
+Endpoint para listar todos os itens, incluindo a data de execução (data de consulta).
+Endpoint para atualizar a quantidade de um item específico pelo código de barras.
+
+Requisitos Técnicos:
+A aplicação deve ser responsiva, funcionando em dispositivos móveis e desktop.
+A API deve ser construída em qualquer linguagem de programação à escolha do candidato (por exemplo, Node.js, Python, Java, etc.).
+O frontend pode ser construído usando qualquer framework ou biblioteca (por exemplo, React, Vue.js, Angular, etc.).
+A aplicação deve usar um banco de dados (SQL ou NoSQL) para armazenar os itens de inventário.
+Critérios de Avaliação
+
+Funcionalidade: A aplicação atende a todos os requisitos especificados?
+Qualidade do Código: O código é bem estruturado, limpo e segue as melhores práticas?
+Uso de API: A API está corretamente implementada e documentada?
+Interface do Usuário: A interface é intuitiva e responsiva?
+Leitura de Código de Barras: A funcionalidade de leitura de código de barras está implementada e funcionando corretamente?
+Documentação: A aplicação possui instruções claras sobre como configurar e executar o projeto?
+
+Entrega
+
+Os candidatos devem fornecer:
+
+O código fonte completo do projeto.
+Um arquivo README com instruções para configurar, executar e testar o sistema.
+Capturas de tela ou um vídeo curto demonstrando a aplicação em funcionamento (opcional, mas recomendado).

@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800 antialiased font-sans;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  @apply font-mono text-sm text-gray-700 bg-gray-200 px-2 py-1 rounded;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800 underline;
+}
+
+
+button {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700;
+
+  @apply sm:py-1 sm:px-2 md:py-2 md:px-4;
+}
+
+
+.container {
+  @apply mx-auto max-w-full px-4;
+
+  @apply sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-7xl;
+}
+
+
+.grid-layout {
+  @apply grid gap-4;
+
+  @apply grid-cols-1;
+
+  @apply md:grid-cols-2;
+
+  @apply lg:grid-cols-3;
+
+  @apply xl:grid-cols-4;
+}
+
+.responsive-image {
+  @apply w-full h-auto;
+}
